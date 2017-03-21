@@ -1,0 +1,232 @@
+.r-m{
+	margin: 0 !important;
+}
+
+.r-p{
+	padding: 0 !important;
+}
+
+/* ------------------------------------------- */
+/* -------------- HEADER --------------------- */
+/* ------------------------------------------- */
+.navbar{
+	border-radius :0px;
+}
+
+.navbar li:hover:not(.navbar-text){
+	box-sizing: border-box;
+	border : 1px solid white;
+}
+
+.container{
+	min-height: calc(100vh - 74px - 60px);
+	max-width: 1500px;
+	width: 100%;
+}
+
+li{
+	list-style: none;
+}
+
+.navbar-text{
+	margin: 0;
+	padding: 15px;
+}
+
+#navbar-collapse-2{
+	padding-left: 0;
+}
+
+#admin{
+	border-top: 0.5px solid #9d9d9d;
+}
+
+#admin{
+	width: 100%;
+	padding-left: 0;
+}
+
+#admin li{
+	width : calc(100% / 7);
+	text-align: center;
+}
+
+/* ------------------------------------------- */
+/* ------------- ACCUEIL --------------------- */
+/* ------------------------------------------- */
+#gauche{
+	
+}
+
+#gauche form{
+	margin: 20px 0;
+}
+
+#gauche input[type="date"]{
+
+}
+
+#droite{
+	
+}
+
+#droite > div{
+	
+}
+
+#droite .vignette{
+	border: 1px solid black;
+	margin: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+#droite .vignette img{
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+}
+
+#droite .vignette h3{
+	font-size: 18px;
+	font-size: 1.8rem;
+	padding-right: 0;
+	line-height: 18px;
+	height: 36px;
+}
+
+#droite .vignette .prix{
+	text-align: right;
+	padding-left: 0;
+	padding-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+.ui-widget-header{
+	background-color: #9d9d9d;
+}
+
+#droite .vignette .description{
+	font-size: 16px;
+	font-size: 1.6rem;
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+#droite .vignette .avis{
+	padding-right: 0;
+}
+
+#droite .vignette .voir{
+	margin-left: 5%;
+	text-align: right;
+}
+
+/* ------------------------------------------- */
+/* ----------- FICHE PRODUIT ----------------- */
+/* ------------------------------------------- */
+.img_poster{
+	width: 75%;
+	height: 75%;
+	margin-left:10%;
+	margin-right: auto;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.info_map{
+	height: 100%;
+}
+
+#map{
+	padding-top:55%;
+}
+
+/* ------------------------------------------- */
+/* ---------------- FORM -------------------- */
+/* ------------------------------------------- */
+input:invalid:not([type="submit"]){
+	border-color: red;
+	box-shadow: 0 0 5px red;
+}
+
+button{
+    color: blue;
+}
+
+/* ------------------------------------------- */
+/* ------------- TABLEAUX -------------------- */
+/* ------------------------------------------- */
+h2{
+	text-align: center;
+}
+
+table{
+	margin: 20px auto;
+}
+
+td, th{
+	padding: 10px;
+	text-align: center;
+}
+
+th{
+	background-color: #222;
+	color: white;
+}
+
+td > img{
+	height: 80px;
+}
+
+/* ------------------------------------------- */
+/* -------------- FOOTER --------------------- */
+/* ------------------------------------------- */
+footer{
+	background-color: #222;
+	color: #9d9d9d;
+	margin-top: 20px;
+	line-height: 40px;
+}
+
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	label.col-sm-3 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	label.col-sm-3 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
